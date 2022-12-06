@@ -24,6 +24,10 @@ body{
     margin: auto; 
     margin-top: 10vw;
 }
+.IDEC{
+    align-self: center;
+    width: 100%;
+}
 @media screen and (max-width: 460px) {
     .About{
         font-size: 5vw;
