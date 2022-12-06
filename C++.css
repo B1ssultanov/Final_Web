@@ -1,0 +1,53 @@
+body{
+    background-color:cornflowerblue;
+}
+.About{
+    font-size: 2vw;
+}
+.Introduction{
+    font-size: 1.4vw;
+}
+.Intro1{
+    font-size: 4vw;
+    margin-left: 10vw;
+}
+.DT_V{
+    font-size: 2vw;
+}
+.DT_V_Head{
+    font-size: 4vw;
+    text-align: center;
+}
+.Introimg{
+    width: 46vw; 
+    height: 30vw; 
+    margin: auto; 
+    margin-top: 10vw;
+}
+@media screen and (max-width: 460px) {
+    .About{
+        font-size: 5vw;
+    }
+    .Intro1{
+        font-weight: 700;
+        font-size: 5vw;
+    }
+    .Introduction{
+        font-size: 4vw;
+        text-align: center;
+        margin-left: -5vw;
+    }
+    .DT_Li{
+        font-size: 4vw;
+    }
+    .DT_V, strong{
+        font-size: 3vw;
+    }
+    .DT_V_Head{
+        font-weight: 700;
+    }
+    .Introimg{
+        width: 100%;
+        height: 100%;
+    }
+}
