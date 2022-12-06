@@ -1,0 +1,121 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body{
+            background-color:cornflowerblue;
+        }
+        .About{
+            font-size: 2vw;
+        }
+        .Introduction{
+            font-size: 1.4vw;
+        }
+        .Intro1{
+            font-size: 4vw;
+            margin-left: 10vw;
+        }
+        .DT_V{
+            font-size: 2vw;
+        }
+        .DT_V_Head{
+            font-size: 4vw;
+            text-align: center;
+        }
+        .Introimg{
+            width: 46vw; 
+            height: 30vw; 
+            margin: auto; 
+            margin-top: 10vw;
+        }
+        @media screen and (max-width: 460px) {
+            .About{
+                font-size: 5vw;
+            }
+            .Intro1{
+                font-weight: 700;
+                font-size: 5vw;
+            }
+            .Introduction{
+                font-size: 4vw;
+                text-align: center;
+                margin-left: -5vw;
+            }
+            .DT_Li{
+                font-size: 4vw;
+            }
+            .DT_V, strong{
+                font-size: 3vw;
+            }
+            .DT_V_Head{
+                font-weight: 700;
+            }
+            .Introimg{
+                width: 100%;
+                height: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="Home.html">Home</a>
+        <ul>
+            <li><a href="#">Sign In</a></li>
+            <li><a href="#">Register</a></li>
+        </ul>
+    </nav>
+    <div class="flex-container">
+        <div class="About">
+            <h1 style="text-align: center;">Про С++</h1>
+            <p>C++ по-прежнему остается одним из самых популярных языков разработки. Есть достаточное количество людей, которые хотят начать его изучать.
+        и стать разработчиком C++. Перед ними встают вопросы типа: «С чего начать? Что и в каком порядке изучать?
+        книги мне читать?"</p>
+            <p>На эти вопросы мы попытались ответить в представленной дорожной карте. Карта фокусируется на общих компетенциях и навыках, которые
+        можно найти в большинстве проектов. Он призван помочь тем, кто только начинает свое образование или имеет небольшой опыт.
+        Вы сможете составить более продуктивный план обучения, не отвлекаясь на побочную информацию, если изучите набор перечисленных
+        материалы. Это поможет вам освоить C++ на уровне, который используется во многих коммерческих проектах.</p>
+        </div>
+        <div class="Introduction">
+            <p class="Intro1" style="text-align: center">Введение в С++</p>
+            <ol class="IntroLi">
+                <li>Изучение C++ — Вводное руководство для начинающих</li>
+                <li>Преимущества и недостатки С++</li>
+                <li>Основы программирования на C++</li>
+                <li>IDE и компилятор для C++ — сердце программирования</li>
+                <li>Базовая структура C++</li>
+                <li>Основы C++</li>
+                <li>Ошибки и предупреждения в C++</li>
+                <li>Комментарии в С++</li>
+            </ul>
+        </div>
+        <img class="Introimg" src="images/С++Intro.png" alt="Introduction">
+        <div class="DT_V">
+            <p class="DT_V_Head">Типы данных, переменные и основные понятия</p>
+            <p><strong> Изучая этот раздел дорожной карты, вам нужно будет узнать о типах данных, которые являются основными понятиями программирования.</strong></p>
+            <p><strong> Вам нужно будет изучить эти темы, чтобы охватить типы данных, переменные и константы C++.</strong></p>
+            <ol class="DT_Li">
+                <li>Примитивные типы данных в C++</li>
+                <li>Модификаторы типов данных в C++</li>
+                <li>Оператор Sizeof C++</li>
+                <li>Директивы препроцессора в C++</li>
+                <li>Директивы пространства имен в C++</li>
+                <li>Ключевые слова в С++</li>
+                <li>Идентификаторы в C++</li>
+                <li>Основная функция в С++</li>
+                <li>Переменные в С++</li>
+                <li>Константы в С++</li>
+                <li>Ввод-вывод в C++</li>
+                <li>Символ новой строки в C++</li>
+                <li>Операторы в C++</li>
+            </ol>
+     </div>
+
+    </div>
+</body>
+</html>
