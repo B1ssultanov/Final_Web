@@ -11,6 +11,10 @@ nav{
     background-color: black;
     border-radius: 10px;
 }
+nav a{
+  color:white;
+  font-size: 15px;
+}
   
 nav,ul {
     display: flex;
@@ -25,5 +29,48 @@ nav,li {
     display: flex;
     gap: 10em;
     justify-content: space-around;
-  }
-  
+}
+body{
+  margin: 0;
+}
+.banner{
+  width: -1%;
+  height: 250px;
+  background-color:black;
+}
+.banner-text{
+    padding: 28px 0px 44px;
+    justify-content: center;
+    font-size: 30px;
+    text-align: center;
+}
+.description{
+  color:white;
+  text-align: center;
+  font-style: normal;
+}
+.photo img{
+  float: left;
+  margin-left: -4%;
+  margin-top: -2%;
+}
+.single_page{
+   padding-top: 32px;
+    padding-right: 36px;
+    padding-bottom: 32px;
+    padding-left: 36px;
+    position: relative;
+}
+.question{
+  color:black;
+  text-align: center;
+}
+.single_page img{
+  width: 80%;
+  height: 500px;
+    display: block; 
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+
+}
