@@ -1,9 +1,6 @@
 body{
     background-color:cornflowerblue;
 }
-.About{
-    font-size: 2vw;
-}
 .Introduction{
     font-size: 1.4vw;
 }
@@ -11,7 +8,7 @@ body{
     font-size: 4vw;
     margin-left: 10vw;
 }
-.DT_V, .Operators{
+.DT_V, .Operators, .About, .Arrays{
     font-size: 2vw;
 }
 .DT_V_Head{
