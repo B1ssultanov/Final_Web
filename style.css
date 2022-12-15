@@ -14,7 +14,7 @@ nav {
     overflow: hidden;
     background-color: black;
     border-radius: 10px;
-    top: -2.5vh;
+    top: 0px;
     position: fixed;
     width: 95%;
 }
@@ -33,6 +33,7 @@ nav,li{
 .flex-container{
     display: flex;
     flex-wrap: wrap;
+    margin-top: 7vw;
     margin-left: 1vw;
     margin-right: 1vw;
 }

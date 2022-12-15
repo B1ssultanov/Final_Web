@@ -29,7 +29,7 @@ body{
     width: 50%; 
     float: left;
 }
-@media screen and (max-width: 460px) {
+@media screen and (max-width: 610px) {
     .About{
         font-size: 5vw;
     }
