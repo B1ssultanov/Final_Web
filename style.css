@@ -37,3 +37,12 @@ nav,li{
     margin-left: 1vw;
     margin-right: 1vw;
 }
+
+body nav a:hover{
+    color: #f18d1d;
+    transition-duration: 0.3s;
+}
+
+.blocks:hover{
+    box-shadow: 0 0 30px rgba(0,0,0,0.3);
+}

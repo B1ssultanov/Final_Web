@@ -1,58 +1,58 @@
-body{
+body {
+
     font-family: system-ui;
-}
-.header{
-    border-bottom: 1px solid #E5E5E5;
-    padding: 5px 0;
-    margin: -10px;
-    background-color: #337aff;
-}
-.container{
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-.header .container{
-    display: flex;
-    align-items: center;
-}
-.logo img{
-    vertical-align: bottom;
-    height: 75px;
-}
-
-.menu{
-    margin-left: 244px;
-    display: flex;
-    justify-content: space-between;
-}
-
-.menu ul{
-    list-style: none;
-    display: flex;
-
-}
-
-.menu ul li a{
-    font-size: 20px;
+    background: #338afb;
     color: white;
 }
-
-.menu-item{
-    margin-right: 100px;
+nav{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    border-radius: 10px;
 }
-
-.menu-item a{
-
-    font-weight: 400;
+.menu a{
+    color:white;
     font-size: 15px;
-    text-decoration: none;
-
-    color: #030305;
-}
-.menu-item a:hover{
-    border-bottom: 4px solid;
-    padding-bottom: 10px;
-    transition-duration: 0.3s;
 }
 
+nav,ul {
+    display: flex;
+    margin: 0;
+    align-items: center;
+}
+.menu, li {
+    list-style-type: none;
+    margin: 1em;
+    display: flex;
+    gap: 10em;
+    justify-content: space-around;
+}
+body{
+    margin: 0;
+    }
+
+.container-1{
+    font-size: 30px;
+    text-align: center;
+}
+
+.container-2 li{
+    text-decoration: solid white;
+}
+.container-2{
+    display: flex;
+    text-align: start;
+}
+
+.container-2 .plus ul{
+    display: inline;
+}
+
+.container-2 .minus ul{
+    display: inline;
+}
+
+.roadmap{
+    text-align: center  ;
+}
