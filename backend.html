@@ -6,7 +6,14 @@
     <link rel="stylesheet" href="backend.css">
 </head>
 <body>
-    
+    <script>
+        function changeColor(id){
+            document.getElementById(id).style.color ='red';
+        }
+        function defaultColor(id){
+            document.getElementById(id).style.color='white';
+        }
+    </script>
     
     <section class="header">
 
@@ -22,13 +29,67 @@
         </nav>
 
         <div class="text-box">
-            <h1>Wordld Biggest Univesity</h1>
-            <p>Бэкенд — это разработка бизнес-логики продукта (сайта или веб-приложения). Бэкенд отвечает за взаимодействие пользователя с внутренними данными,<br> которые потом отображает фронтенд.</p>
-            <a href="#" class="link"> Visit us to know more  </a>
+            <h1 id="1" onmouseleave="defaultColor(this.id)" onmouseover="changeColor(this.id)">Backend Roadmap 2022</h1>
+            <p id="2" onmouseleave="defaultColor(this.id)" onmouseover="changeColor(this.id)">Бэкенд — это разработка бизнес-логики продукта (сайта или веб-приложения).<br> Бэкенд отвечает за взаимодействие пользователя с внутренними данными,<br> которые потом отображает фронтенд.</p>
+            <a href="#" class="link"> Перейти к Roadmap  </a>
         </div>
-
     </section>
    
+    <section class="backend">
+        <h1>
+            Кратко о бэкенде разработчиках
+        </h1>
+        <p>Управление базами данных и преобразование данных.        </p>
+
+        <div class="row">
+
+            <div class="course-col">
+                    <h3>Зарплата</h3>
+                    <p>Зарплата для разработчиков бэк-энд. Бэкенд-разработка - это хорошо оплачиваемая работа, которая в зависимости от различных факторов варьируется от примерно 70 000 долларов США в качестве самой низкой зарплаты до более чем 130 000 долларов США в год.</p>
+            </div>
+
+            <div class="course-col">
+                <h3>Что делает?</h3>
+                <p>
+                    Бэкенд-разработчик создаёт компоненты и функции, которые доступны пользователю приложения или сайта через интерфейс. </p>
+            </div>
+
+            <div class="course-col">
+                <h3>Личные качества</h3>
+                <p>Ответственность,Внимательность и внимание к мелочам,Трудоспособность,Умение доводить дело до конца, нацеленность на результат. В бэкенде важен результат — корректно и ожидаемо работающее приложение.Логическое мышление и аналитический склад ума</p>
+            </div>
+            
+        </div>
+    </section>
+
+    <section class="campus">
+        <h1>Best Languages for Backend</h1>
+        <p></p>
+
+        <div class="row">
+
+                <div class="lang">
+                    <img src="images/golang-removebg-preview.png">
+                    <div class="layer">
+                          <h3>Golang</h3>
+                    </div>  
+                </div>
+
+                <div class="lang"  style="padding-top:70px;">
+                    <img src="images/php.png">
+                    <div class="layer">
+                          <h3>PHP</h3>
+                    </div>  
+                </div>
+
+                <div class="lang">
+                    <img src="images/frontnodejs.png">
+                    <div class="layer">
+                          <h3>Node JS</h3>
+                    </div>  
+                </div>
+        </div>
+    </section>
 
 </body>
 </html>
