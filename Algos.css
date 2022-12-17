@@ -40,12 +40,31 @@ nav,li{
 #algorithmsList{
     width: 60vw; 
     margin-top: 100px;
+    margin-left: 7%;
 }
 
 #algorithmsList ol li{
     font-size: 2vh;
     font-weight: 600;
 }
+
+body{
+    background-image: url('images/Green_rhombus_background.jpg');
+    background-size: 100%;
+    background-position: fixed;
+}
+h2{
+    color: white;
+}
+code{
+    font-size: 1.4vw;
+}
+
+/* #background_rhombus{
+    width: 69vw;
+    position: fixed;
+    z-index: -1;
+} */
 
 @media screen and (max-width: 550px) {
     #matrix{
@@ -56,6 +75,8 @@ nav,li{
         width: auto;
         margin-left: -8px;
     }
-    
+    code{
+        font-size: 1.8vw;
+    }
 
 }
