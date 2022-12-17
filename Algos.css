@@ -9,7 +9,7 @@ nav {
     overflow: hidden;
     background-color: black;
     border-radius: 10px;
-    top: 0px;
+    top: -2vw;
     position: fixed;
     width: 95%;
     z-index: 10;
@@ -24,4 +24,38 @@ nav,li{
     display: flex;
     gap: 5vw;
     justify-content: space-around;
+}
+
+#matrix{
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    width: 30vw;
+    margin: -8px; 
+    opacity: 0.9; 
+    height: 110%
+}
+
+#algorithmsList{
+    width: 60vw; 
+    margin-top: 100px;
+}
+
+#algorithmsList ol li{
+    font-size: 2vh;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 550px) {
+    #matrix{
+        height:0px;
+        width: 0px;
+    }
+    #algorithmsList{
+        width: auto;
+        margin-left: -8px;
+    }
+    
+
 }
