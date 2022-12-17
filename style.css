@@ -56,3 +56,12 @@ body nav a:hover{
     color:black;
     font-size: 1vw;
 }
+
+@media screen and (max-width: 720px) {
+    .blocks p{
+        font-size: 3vw;
+    }
+    .blocks button{
+        font-size: 3vw;
+    }
+}
