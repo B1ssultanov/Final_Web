@@ -17,6 +17,7 @@ nav {
     top: 0px;
     position: fixed;
     width: 95%;
+    z-index: 10;
 }
 nav,ul{
     display: flex;
@@ -36,4 +37,7 @@ nav,li{
     margin-top: 7vw;
     margin-left: 1vw;
     margin-right: 1vw;
+    align-items: center;
+    justify-content: center;
+    gap: 1vw;
 }
