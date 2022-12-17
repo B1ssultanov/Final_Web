@@ -2,7 +2,8 @@
     .text-box h1{
         font-size: 30px;
     }
-    .navlinks ul li{
+    .navlinks ul li
+    {
         display: block;
     }
     .navlinks{
