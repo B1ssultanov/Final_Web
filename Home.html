@@ -7,6 +7,14 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
     <style>
+        #backgroundVideo{
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            max-width: 120%;
+            max-height: 120%;
+        }
         .blocks{
             position: relative;
             background-color: white;    
@@ -46,7 +54,7 @@
     <script>
         function hoverButton(id){
             document.getElementById(id).style.backgroundColor = 'black';
-            document.getElementById(id).style.color = '#f18d1d';
+            document.getElementById(id).style.color = 'aqua';
             document.getElementById(id).style.fontSize = "1.5vw";
         }
         function outButton(id){
@@ -55,6 +63,9 @@
             document.getElementById(id).style.fontSize = "1vw";
         }
     </script>
+    <video autoplay muted loop id="backgroundVideo">
+        <source src="images/background_Home.mp4" type="video/mp4">
+    </video>
     <nav>
         <a href="Home.html">Home</a>
         <ul>
@@ -94,7 +105,7 @@
         <div class="blocks">
             <img src="images/Algo_main.jpg" style="border-radius: 10px; width: 300px; height: 200px">
             <img src="images/Algo_logo.png" class="Img_Top">
-            <p style="margin: 5px; margin-top: 50px; margin-left: 2vw;">BackEnd RoadMap</p>
+            <p style="margin: 5px; margin-top: 50px; margin-left: 2vw;">Algorithms Roadmap</p>
             <p style="margin: 5px; margin-left: 2vw">Suleyman Demirel University</p>
             <a href="Algo.html"><button id="5" onmouseover="hoverButton(this.id)" onmouseout="outButton(this.id)">Start RoadMap</button></a>
         </div>

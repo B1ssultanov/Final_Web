@@ -1,8 +1,4 @@
 ::-webkit-scrollbar { width: 0;}
-body{
-    font-family: system-ui;
-    background: #f18d1d;
-}
 nav, a{
     color: white;
     text-decoration: none;
@@ -43,7 +39,7 @@ nav,li{
 }
 
 body nav a:hover{
-    color: #f18d1d;
+    color: aqua;
     transition-duration: 0.3s;
 }
 
