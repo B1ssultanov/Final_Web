@@ -50,3 +50,9 @@ body nav a:hover{
 .blocks:hover{
     box-shadow: 0 0 30px rgba(0,0,0,0.3);
 }
+
+.blocks button{
+    text-decoration: none; 
+    color:black;
+    font-size: 1vw;
+}
