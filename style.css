@@ -1,4 +1,14 @@
 ::-webkit-scrollbar { width: 0;}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: system-ui;
+    background: #f18d1d;
+}
 nav, a{
     color: white;
     text-decoration: none;
@@ -39,7 +49,7 @@ nav,li{
 }
 
 body nav a:hover{
-    color: aqua;
+    color: #f18d1d;
     transition-duration: 0.3s;
 }
 
@@ -51,6 +61,56 @@ body nav a:hover{
     text-decoration: none; 
     color:black;
     font-size: 1vw;
+}
+.footer{
+    margin-top: 150px;
+    width: 100%;
+    padding: 100px 15%;
+    background:black;
+    color:#efefef;
+    display: flex;
+    justify-content: space-between;
+    position:relative;
+}
+.footer div{
+    text-align: center;
+}
+.footer h3{
+    font-weight: 300;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+.one a{
+    display: block;
+    text-decoration: none;
+    color:#efefef;
+    margin-bottom: 10px;
+} 
+form input{
+    width: 400px;
+    height: 45px;
+    border-radius:5px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    outline: none;
+    border:none;
+}
+form button{
+    background: transparent;
+    border:2px solid white;
+    color:white;
+    border-radius:15px;
+    padding: 10px 30px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.icons i{
+    display: block;
+    margin-top: 20px;
+    font-size: 30px;
+    cursor: pointer;
+    max-width: 100px;
 }
 
 @media screen and (max-width: 720px) {
