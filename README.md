@@ -4,6 +4,6 @@
     
   </head>
   <body>
-    <a href="Home.html">
+    <a href="Home.html">Home</a>
   </body>
 </html>
