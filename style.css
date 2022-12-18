@@ -7,7 +7,6 @@
 }
 body{
     font-family: system-ui;
-    background: #f18d1d;
 }
 nav, a{
     color: white;
@@ -22,7 +21,6 @@ nav {
     border-radius: 10px;
     top: 0px;
     position: fixed;
-    width: 95%;
     z-index: 10;
 }
 nav,ul{
@@ -49,7 +47,7 @@ nav,li{
 }
 
 body nav a:hover{
-    color: #f18d1d;
+    color: aqua;
     transition-duration: 0.3s;
 }
 
