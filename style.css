@@ -85,7 +85,7 @@ body nav a:hover{
     margin-bottom: 10px;
 } 
 form input{
-    width: 400px;
+    width: 40vw;
     height: 45px;
     border-radius:5px;
     text-align: center;

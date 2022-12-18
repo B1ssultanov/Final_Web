@@ -4,6 +4,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
     <link rel="stylesheet" href="style.css">
@@ -31,8 +33,6 @@
             border: 0px;
             margin: 30px;
             border-radius: 10px;
-        }
-        .blocks button{
             transition: color 1s, font-size 1s, background 1s;
         }
         .Img_Top{
@@ -50,6 +50,40 @@
             margin-top: -10px;
             margin-left: 0;
             width: 100%;
+        }
+        .aboutUs{
+            display: flex;
+            flex-wrap: wrap;
+            align-content: center;
+            justify-content: space-around;
+        }
+        .AboutBlocks{
+            position: relative;
+        }
+        .aboutUs img{
+            width: 25em; 
+            height: 35em;
+            border: 1px solid black;
+        }
+        .aboutUs img:hover{
+            opacity: 0.8;
+            transition: 1s;
+        }
+        .About_Instagram{
+            font-size: 3em;
+            position: absolute;
+            top: 5%;
+            left: 5%;
+        }.About_Telegram{
+            font-size: 3em;
+            position: absolute;
+            top: 15%;
+            left: 5%;
+        }.About_Email{
+            font-size: 3em;
+            position: absolute;
+            top: 25%;
+            left: 5%;
         }
     </style>
 </head>
@@ -89,7 +123,7 @@
             <img src="images/Python_Logo.png" class="Img_Top">
             <p style="margin: 5px; margin-top: 50px; margin-left: 2vw;">Python RoadMap</p>
             <p style="margin: 5px; margin-left: 2vw">Suleyman Demirel University</p>
-            <a href="Python.html"><button id="2" onmouseover="hoverButton(this.id)" onmouseout="outButton(this.id)">Start RoadMap</button></a>
+            <a href="python.html"><button id="2" onmouseover="hoverButton(this.id)" onmouseout="outButton(this.id)">Start RoadMap</button></a>
         </div>
         <div class="blocks">
             <img src="images/2210153.png" class="front" style="border-radius: 10px; width: 250px; height: 200px;margin-left: 10px;">
@@ -114,6 +148,33 @@
         </div>
     </div>
 
+    <br>
+    <div class="aboutUs">
+        <div id="1" onmouseover="slide(this.id)" onmouseout="slide(this.id)" class="AboutBlocks">
+            <div><img src="images/Yedyge.jpg" alt="Yedyge"></div>
+            <div id="11" style="display: none;">
+                <a href="https://www.instagram.com/yedygeb" class="About_Instagram"><i class="fa fa-instagram"></i></a>
+                <a href="http://t.me/B1ssultanov" class="About_Telegram"><i class="fa fa-telegram"></i></a>
+                <a href="yedyge2004@gmail.com" class="About_Email"><i class="fa fa-cloud"></i></a>
+            </div>
+        </div>
+        <div id="2" onmouseover="slide(this.id)" onmouseout="slide(this.id)" class="AboutBlocks">
+            <img src="images/Berik.jpg" alt="Berik">
+            <div id="21" style="display: none;">
+                <a href="https://www.instagram.com/yermannov" class="About_Instagram"><i class="fa fa-instagram"></i></a>
+                <a href="http://t.me/yermannov" class="About_Telegram"><i class="fa fa-telegram"></i></a>
+                <a href="yermanberik@gmail.com" class="About_Email"><i class="fa fa-cloud"></i></a>
+            </div>
+        </div>
+        <div id="3" onmouseover="slide(this.id)" onmouseout="slide(this.id)" class="AboutBlocks">
+            <img src="images/Yasin.jpg" alt="Yasin">
+            <div id="31" style="display: none;">
+                <a href="https://www.instagram.com/sab1.tov/" class="About_Instagram"><i class="fa fa-instagram"></i></a>
+                <a href="http://t.me/qanagattandyrylmagandyktan" class="About_Telegram"><i class="fa fa-telegram"></i></a>
+                <a href="bestplayer0202@gmail.com" class="About_Email"><i class="fa fa-cloud"></i></a>
+            </div>
+        </div>
+    </div>
     <footer class="footer">
         <div class="one">
             <h3>USEFUL LINKS</h3>
@@ -147,7 +208,11 @@
             </div>
             </div>
         </footer>
-
+        <script>
+            function slide(id){
+                $("#"+id+'1').fadeToggle("slow");
+            }
+        </script>
 </body>
 </html>
 <!-- 1 Home -->
