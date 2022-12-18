@@ -64,7 +64,7 @@ body{
 }
 
 .plus li, .minus li{
-    font-size: 20px;
+    font-size: 2vw;
 }
 
 .plus{
@@ -85,12 +85,18 @@ body{
 
 .container-3{
     display: flex;
+    flex-wrap: wrap;
 }
 
 .info{
-    margin-left: 100px;
+    margin-left: 60px;
     width: 50%;
-    font-size: 30px;
+    font-size: 40px;
+}
+
+.info a{
+    text-decoration: none;
+    color: #fff3f3;
 }
 
 .info a:hover{
@@ -99,11 +105,68 @@ body{
 }
 
 .idepy{
-    width: 50%;
+    width: 45vw;
     border-radius: 50px;
+    padding-bottom: 50px;
+}
+
+.ide{
+    height: 700px
 }
 
 .roadmap{
     text-align: center  ;
 }
 
+.per-info{
+    display: flex;
+    padding-bottom: 50px;
+    flex-wrap: wrap;
+}
+
+.card {
+    margin: auto;
+    color: #413E3B;
+    background-color: #fff3f3;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 250px;
+    height: 300px;
+    text-align: center;
+    border-radius: 25px;
+}
+
+.card:hover {
+    color: #fff3f3;
+    background-color: #413E3B;
+    transition-duration: 0.5s;
+}
+
+
+.card1 {
+    margin: auto;
+    color: #413E3B;
+    background-color: #fff3f3;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 350px;
+    height: 350px;
+    text-align: center;
+    border-radius: 200px;
+    font-size: 1vw;
+}
+
+.card1:hover{
+    box-shadow: 0 0 30px rgba(0,0,0,0.3);
+}
+
+.if-info{
+    display:flex;
+    flex-wrap: wrap;
+    padding-bottom: 50px;
+}
+
+.loop-info {
+    text-align: center;
+    font-size: 2vw;
+}
