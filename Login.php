@@ -11,9 +11,11 @@ $mysqli = mysqli_connect('localhost','root', '' ,'mysql');
     $count = mysqli_num_rows($result);  
     
     if($count == 1){  
-        echo "<h1><center> Login successful </center></h1>";  
+        // echo "<h1><center> Login successful </center></h1>";  
+        header('Location: home.html');
     }  
     else{  
-        echo "<h1> Login failed. Invalid username or password.</h1>";  
+        // echo "<h1> Login failed. Invalid username or password.</h1>";  
+        header('Location: Login.html');
     }     
 ?>  
