@@ -4,17 +4,62 @@ body {
     background: #338afb;
     color: white;
 }
-nav{
-    margin: 0;
-    padding: 0;
+
+.header{
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+}
+
+
+nav, a{
+    color: white;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+nav, a{
+    color: white;
+    text-decoration: none;
+    list-style: none;
+}
+nav {
+    margin: 0px;
+    width: 100%;
+    padding: 0px;
     overflow: hidden;
     background-color: black;
     border-radius: 10px;
+    top: 0px;
+    position: fixed;
+    z-index: 10;
+    margin-left: 0px;
+    top: -10px;
 }
+nav,ul{
+    display: flex;
+    margin: 0;
+    align-items: center;
+}
+nav,li{
+    margin: 1.4vw;
+    display: flex;
+    gap: 5vw;
+    justify-content: space-around;
+}
+
+
+
 .menu a{
     color:white;
     font-size: 15px;
     text-decoration: none;
+}
+
+.menu a:hover{
+    color: aqua;
+    transition-duration: 0.3s;
 }
 
 nav,ul {
@@ -87,12 +132,13 @@ body{
 .container-3{
     display: flex;
     flex-wrap: wrap;
+    padding-bottom: 500px;
 }
 
 .info{
-    margin-left: 60px;
-    width: 50%;
-    font-size: 40px;
+    margin-top: 15vw;
+    font-size: 2vw;
+    margin-left: 10vw;
 }
 
 .info a{
@@ -106,9 +152,9 @@ body{
 }
 
 .idepy{
-    width: 45vw;
-    border-radius: 50px;
-    padding-bottom: 50px;
+    width: 46vw;
+    height: 30vw;
+    margin: 10vw auto auto;
 }
 
 .ide{
@@ -150,8 +196,8 @@ body{
     background-color: #fff3f3;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
-    width: 350px;
-    height: 350px;
+    width: 400px;
+    height: 400px;
     text-align: center;
     border-radius: 200px;
     font-size: 1vw;
@@ -161,13 +207,50 @@ body{
     box-shadow: 0 0 30px rgba(0,0,0,0.3);
 }
 
+.card1 h4{
+    padding-top: 100px;
+}
 .if-info{
     display:flex;
     flex-wrap: wrap;
     padding-bottom: 50px;
+    justify-content: center;
 }
 
 .loop-info {
     text-align: center;
     font-size: 2vw;
+}
+
+
+@media screen and (max-width: 550px) {
+    .card1{
+        justify-content: center;
+    }
+    #info{
+        font-size: 25vw;
+        margin: auto;
+    }
+    .if-info{
+        display: none;
+        padding-bottom: 100px;
+    }
+    .container-3{
+        font-size: 4vw;
+        text-align: center;
+        margin-left: -5vw;
+    }
+    .info{
+        font-weight: 700;
+        font-size: 5vw;
+    }
+    .idepy{
+        width: 100%;
+        height: 100%;
+    }
+    #elif{
+
+        width: 100% ;
+    }
+
 }

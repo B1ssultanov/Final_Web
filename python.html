@@ -26,7 +26,7 @@
         <br> Язык является полностью объектно-ориентированным в том плане, что всё является объектами.
         <br>Необычной особенностью языка является выделение блоков кода пробельными отступами. </p>
 </div>
-<div class="container-2"  onclick="$('.pl').slideDown()" ondblclick="$('.pl').slideUp()">
+<div class="container-2"  onclick="$('.pl').slideToggle()">
     <div class="plus">
         <h2 style="align-content: center">ПЛЮСЫ</h2>
         <ul>
@@ -47,13 +47,13 @@
     </div>
 </div>
 <div class="container-3">
-    <div class="info">
+    <div class="info" id="info">
         <h3>Введение</h3>
         <p><a href="#per">Переменные и типы данных</a></p>
         <p><a href="#if">Условная конструкция if</a></p>
         <p><a href="#loop">Циклы</a></p>
     </div>
-    <div class="idepy">
+    <div class="idepy" id="idepy    ">
         <div class="ide" data-pym-src="https://www.jdoodle.com/iembed/v0/BnH"></div>
         <script src="https://www.jdoodle.com/assets/jdoodle-pym.min.js" type="text/javascript"></script>
     </div>
@@ -103,24 +103,23 @@
             <div class="card1">
                 <h4>elif</h4>
                 <p>
-                    Оператор elif управляет
-                    <br>условным ветвлением.
-                    <br>Операторы выполняются только
-                    <br>в том случае,
-                    если condition вычисляется ненулевое значение.
+                    Оператор elif управляет условным ветвлением.
+                    <br>Операторы выполняются только в том случае,
+                    <br>если condition вычисляется ненулевое значение.
                     Если значение condition ненулевое, выполняется следующая инструкция
                 </p>
             </div>
             <div class="card1">
                 <h4>else</h4>
                 <p>
-                    Оператор else
-                    <br>выполняется когда
-                    условия всех других операторов не могут быть выполнены
+                    Оператор else выполняется
+                    <br>когда условия всех
+                    <br>других операторов
+                    <br>не могут быть выполнены
                 </p>
             </div>
         </div>
-        <img src="./images/elif.png" style="width: 70vw" alt="">
+        <img src="./images/elif.png" style="width: 70vw" id="elif" alt="">
     </div>
     <div style="width: 90%; margin: auto">
         <div class="ide" data-pym-src="https://www.jdoodle.com/iembed/v0/BoI"></div>

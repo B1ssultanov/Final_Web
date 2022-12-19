@@ -1,4 +1,4 @@
-@media screen and (max-width: 414px){
+@media screen and (max-width: 600px){
    
     .text-box h1{
         font-size: 30px;
@@ -43,26 +43,26 @@
         word-wrap:break-word;
         font-size: 5px;
     }
-    .row{
-        display:inline-grid;
+    .course-col{
+        height: 100px;
     }
-
-   
 }
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
 }
+
 nav, a{
     color: white;
     text-decoration: none;
     list-style: none;
 }
-
 nav {
     margin: 0px;
     height: 50px;
+    width: 100%;
     padding: 0px;
     font-size: 15px;
     margin-top: -10px;
@@ -195,7 +195,7 @@ p{
 }
 .row{
     margin-top: 5px;
-    display: inline-grid;
+    display: flex;
     justify-content: space-between;
 }
 .course-col{

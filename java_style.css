@@ -1,0 +1,166 @@
+body, .header{
+    background-color: #212931;
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+}
+
+.head{
+    text-align: center;
+    color: white;
+}
+
+.head:hover{
+    color: #18bfef;
+    transition-duration: 0.3s;
+}
+
+.head h1{
+    font-size: 8vw;
+}
+
+.head p{
+    font-size: 3vw;
+}
+
+
+.header{
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+}
+
+
+nav {
+    margin: 0px;
+    width: 100%;
+    padding: 0px;
+    overflow: hidden;
+    background-color: black;
+    border-radius: 10px;
+    top: 0px;
+    position: fixed;
+    z-index: 10;
+}
+nav,ul{
+    display: flex;
+    margin: 0;
+    align-items: center;
+}
+nav,li{
+    margin: 1.4vw;
+    display: flex;
+    gap: 5vw;
+    justify-content: space-around;
+}
+
+.menu a{
+    color:white;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.menu a:hover{
+    color: aqua;
+    transition-duration: 0.3s;
+}
+
+.menu, li {
+    list-style-type: none;
+    margin: 1em;
+    display: flex;
+    gap: 10em;
+    justify-content: space-around;
+}
+
+.main{
+    background-color: white;
+    width: 90%;
+    height:90%;
+    margin:auto;
+    justify-content: center;
+}
+
+.start{
+    padding-top: 50px;
+    text-align: center;
+    font-size: 2vw;
+    color: #1e252d;
+}
+
+.start hr{
+    width: 60%;
+    margin: auto;
+}
+
+.start h1:hover{
+    color: #18bfef;
+    transition-duration: 0.3s;
+}
+
+.start p:hover{
+    color: #18bfef;
+    transition-duration: 0.3s;
+}
+
+.image{
+    margin: auto;
+    width: 60vw;
+    align-content: center;
+    justify-content: center;
+}
+
+.image img{
+    width: 100%;
+}
+
+.fit img{
+    width:80%;
+    height: 60%;
+}
+
+.cards{
+    font-size: 1vw;
+    justify-content: center;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    display: flex;
+    flex-wrap: wrap;
+}
+.card{
+    width: 49%;
+    height:500px;
+    text-align: center;
+    padding-bottom: 50px;
+    border: 1px solid #717981;
+}
+
+.card p{
+    padding-bottom: 50px;
+}
+
+.button{
+    padding: 15px;
+    margin: auto;
+    text-decoration: none;
+    color: #1e252d;
+    border: 2px solid #1e252d;
+}
+
+.button:hover{
+    color: #ffffff;
+    border-color: #ec2946;
+    background-color: #ec2946;
+    transition-duration: 0.3s;
+}
+
+.info{
+    text-align: center;
+    justify-content: center;
+}
+
+.footer{
+    color: #1e252d;
+    text-align:center;
+}
+.footer img{
+    width:100%;
+}
