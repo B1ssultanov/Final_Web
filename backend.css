@@ -7,6 +7,9 @@
     {
         display: block;
     }
+    .roadmap p{
+        font-size: 10px;
+    }
     .navlinks{
         position: absolute;
         background:#f44336;
@@ -42,6 +45,17 @@
     body{
         word-wrap:break-word;
         font-size: 5px;
+        overflow-x: hidden;
+    }
+    .section{
+        overflow-x: hidden;
+    }
+    #roadmap img{
+        width: 800px;
+         display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
     }
     .row{
         display:inline-grid;
@@ -262,9 +276,7 @@ h3{
     line-height: 1.2;
     color:black !important;
 }
-.roadmap img{
-    padding-left: 100px;
-}
+
 .roadmap p{
     color:black;
     font-size: 25px;
