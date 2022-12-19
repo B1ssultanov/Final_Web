@@ -1,4 +1,4 @@
-@media(max-width:700px){
+@media screen and (max-width: 610px){
     .text-box h1{
         font-size: 30px;
     }
@@ -17,40 +17,55 @@
     }
     .row{
         flex-direction: column;
-
     }
+    .row p{
+        font-size: 10px;
+    }
+    .course-col p{
+        font-size: 10px;
+    }
+    #roadmap p{
+        font-size: 15px;
+    }
+    #roadmap strong{
+        display: inline;
+        font-size: 20px;
+        margin-left: 100px;
+    }
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
 }
 body{
-    margin: 0;
-    
+    font-family: system-ui;
 }
-body p{
-    font-family:Georgia, 'Times New Roman', Times, serif;
-
-}
-
 nav, a{
-    color: black;
+    color: white;
     text-decoration: none;
     list-style: none;
 }
 nav {
     margin: 0px;
+    width: 100%;
     padding: 0px;
+    margin-top: -10px;
+    margin-left: 0;
+    width: 100%;
     overflow: hidden;
-    background-color: white;
+    background-color: black;
     border-radius: 10px;
-    justify-content: space-between;
     top: 0px;
     position: fixed;
-    width: 95%;
+    z-index: 10;
 }
 nav,ul{
     display: flex;
     margin: 0px;
     align-items: center;
-    padding:4px 8px;
-
 }
 nav,li{
     margin: 1.4vw;
@@ -58,14 +73,50 @@ nav,li{
     gap: 5vw;
     justify-content: space-around;
 }
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600);	
 
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
 
-.header{
+html {
+  border-top: 5px solid #fff;
+  background: #e9e9e9;
+  color: #2a2a2a;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans';
+}
+
+  .header{
     min-height: 100vh;
+   
     width: 100%;
     background-image:url("images/cover.jpg");
     background-position:center;
     background-size:cover;
+}
+.wrapper{
+    width: 100%;
+}
+.carousel{
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 30px;
+}
+.carousel .card{
+    color:#000;
+    text-align: center;
+    margin:  20px 0;
+    line-height: 250px;
+    font-size: 90px;
+    font-weight: 600;
+    box-shadow:0px 4px 15px rgba(0, 0, );
 }
 .text-box{
     width: 90%;
@@ -91,11 +142,12 @@ nav,li{
     display: inline-block;
     text-decoration: none;
     color:#FFF;
-    width: 300px;
+    width: 350px;
+    max-height: 150px;
     font-family:Georgia, 'Times New Roman', Times, serif;
     border: 1px solid white;
     padding: 12px 34px;
-    font-size: 13px;
+    font-size: 18px;
     background:transparent;
     position: relative;
     cursor: pointer;
@@ -173,6 +225,9 @@ h3{
 }
 .lang img{
     width: 70%;
+}
+.row p{
+    letter-spacing: 1px;
 }
 .layer{
   
@@ -253,9 +308,16 @@ form button{
     cursor: pointer;
     max-width: 100px;
 }
+.roadmap p,h2,h3{
+    letter-spacing: 1px;
+}
 
 
 .mainDes{
     text-align: center;
-    font-size: 35px;
+    font-size: 45px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.mainDes h1{
+    letter-spacing: 1px;
 }

@@ -13,25 +13,25 @@
         function defaultColor(id){
             document.getElementById(id).style.color='white';
         }
+        
     </script>
+     <nav>
+        <a href="Home.html">Home</a>
+        <ul>
+            <li><a href="#">Sign In</a></li>
+            <li><a href="#">Register</a></li>
+        </ul>
+    </nav>
     
     <section class="header">
 
-        <nav>
-            <a href="Home.html">Home</a>
-
-            <div class="navlinks">
-                <ul>
-                    <li>Sign up</li>
-                    <li>Sing on</li>
-                </ul>
-            </div>
-        </nav>
+       
 
         <div class="text-box">
-            <h1 id="1" onmouseleave="defaultColor(this.id)" onmouseover="changeColor(this.id)">BACKEND ROADMAP 2022</h1>
+            <h1 id="1" onmouseleave="defaultColor(this.id)" onmouseover="changeColor(this.id)">ДОРОЖНАЯ КАРТА БЭКЕНДА 2022</h1>
             <p id="2" onmouseleave="defaultColor(this.id)" onmouseover="changeColor(this.id)">Бэкенд — это разработка бизнес-логики продукта (сайта или веб-приложения).<br> Бэкенд отвечает за взаимодействие пользователя с внутренними данными,<br> которые потом отображает фронтенд.</p>
-            <a href="#" class="link"> Перейти к Roadmap  </a>
+            <a href="roadmap" class="link"> Перейти к Roadmap  </a>
+
         </div>
     </section>
    
@@ -39,7 +39,7 @@
         <h1>
             Кратко о бэкенде разработчиках
         </h1>
-        <p>Управление базами данных и преобразование данных.        </p>
+        
 
         <div class="row">
 
@@ -61,71 +61,43 @@
             
         </div>
     </section>
+    
 
-    <section class="campus">
-        <h1>BEST LANGUAGES FOR BACKEND</h1>
-        <p></p>
-
-        <div class="row">
-
-                <div class="lang">
-                    <img src="images/golang-removebg-preview.png">
-                    <div class="layer">
-                          <h3>GOLANG</h3>
-                    </div>  
-                </div>
-
-                <div class="lang"  style="padding-top:70px;">
-                    <img src="images/php.png">
-                    <div class="layer">
-                          <h3>PHP</h3>
-                    </div>  
-                </div>
-
-                <div class="lang">
-                    <img src="images/nodejss.png">
-                    <div class="layer">
-                          <h3>NODE JS</h3>
-                    </div>  
-                </div>
-        </div>
-    </section>
-
-    <main class="roadmap">
-        <h1 class="mainDes">Давайте теперь переходим к roadmap</h1>
+    <main class="roadmap" id="roadmap">
+        <h1  class="mainDes">Roadmap</h1>
         <h2>1. <strong>Изучайте HTML и CSS</strong></h2>
         <img src="images/backendcode.webp">
         <p>Даже если вы просто хотите разработать причудливые API и серверные системы:</p>
-        <p style="border:1px solid black;;">Важно узнать, как работает интерфейсная разработка и как лучше удовлетворять ее потребности.<br > Чтобы сделать это, вы можете начать с изучения некоторых <strong>CSS and HTML</strong></p>
+        <p >Важно узнать, как работает интерфейсная разработка и как лучше удовлетворять ее потребности.<br > Чтобы сделать это, вы можете начать с изучения некоторых <strong>CSS and HTML</strong></p>
         <p>Существует огромное количество потрясающих бесплатных ресурсов о HTML и CSS, я лично просмотрел некоторые:
-            <ol style="font-size:15px;">
-                <li><a style="color:red;" target="_blank" href="https://www.khanacademy.org/computing/computer-programming/html-css">1.Введение в HTML и CSS — Khanacademy</a></li>
-                <li><a style="color:red;"  target="_blank" href="https://www.freecodecamp.org/learn/responsive-web-design/">2.Адаптивный веб-дизайн + бесплатный сертификат на бесплатный код (300 часов)</a></li>
+            <ol >
+                <li><a style="color:rgb(0, 98, 255); margin-right: 830px; font-size: 20px;" target="_blank" href="https://www.khanacademy.org/computing/computer-programming/html-css">1.Введение в HTML и CSS — Khanacademy</a></li>
+                <li><a style="color:rgb(0, 98, 255); margin-right: 500px; font-size: 20px;" href="https://www.freecodecamp.org/learn/responsive-web-design/">2.Адаптивный веб-дизайн + бесплатный сертификат на бесплатный код (300 часов)</a></li>
             </ol>
         </p>
         <h2> 2. <strong>Храните свой серверный код в репозитории — Изучите Git / Контроль версий</strong></h2>
         <img src="images/git.webp">
         <p>Git - это система контроля версий с открытым исходным кодом, которая позволяет вам:</p>
         <ol style="font-size:20px;">
-            <li><strong>1. Следите за своими изменениями.</strong></li>
-            <li><strong>    2. Создайте резервную копию своего кода.</strong> </li>
-            <li><strong>3. Избегайте катастрофических последствий.</strong></li>
-            <li><strong>4. Беспрепятственно сотрудничайте.</strong></li>
+            <li><strong style="margin-right: 900px;">1. Следите за своими изменениями.</strong></li>
+            <li><strong  style="margin-right: 840px;">    2. Создайте резервную копию своего кода.</strong> </li>
+            <li><strong  style="margin-right: 810px;">3. Избегайте катастрофических последствий.</strong></li>
+            <li><strong  style="margin-right: 890px;">4. Беспрепятственно сотрудничайте.</strong></li>
         </ol>
 
         <h2> 3. <strong>Изучите основы веб-безопасности</strong></h2>
         <img src="images/websecurity.webp">
         <p>Понимать основы веб-безопасности и как правильно обращаться с личной информацией:</p>
 
-        <ol>
-            <li><strong>CORS.</strong></li>   
-            <li><strong>HTTP/HTTPS </strong></li>
-            <li><strong>Базовое хеширование</strong></li>
-            <li><strong>Идентификация.</strong></li>
+        <ol style="font-size:18px;">
+            <li><strong style="margin-right: 80%;">1.CORS.</strong></li>   
+            <li><strong style="margin-right: 76%;">2.HTTP/HTTPS </strong></li>
+            <li><strong style="margin-right: 71.5%;" >3.Базовое хеширование</strong></li>
+            <li><strong style="margin-right: 74%;">4.Идентификация.</strong></li>
         </ol>
 
         <p>Это лишь некоторые из концепций, с которыми вы будете работать при разработке своих серверных частей и обеспечении безопасности конечных точек API.</p>
-        <p><a href="https://www.futurelearn.com/courses/introduction-to-cyber-security">Изучите основы кибербезопасности бесплатно в этом удивительном курсе от futurelearn.com .</a></p>
+        <p><a style="color:rgb(0, 98, 255)" href="https://www.futurelearn.com/courses/introduction-to-cyber-security">Изучите основы кибербезопасности бесплатно в этом удивительном курсе от futurelearn.com .</a></p>
 
         <h2><strong>4.Подключите свой серверный сервер к базе данных</strong></h2>
         <img src="images/database.webp">
@@ -134,7 +106,7 @@
         <p>Базы данных являются огромной частью серверной разработки, поскольку именно в них обычно будут храниться ваши данные.<br><br>
 
             Изучение того, как создавать, управлять, редактировать и подключать базы данных SQL и NoSQL, является ключевым для серверного разработчика.</p>
-            <p><a href="https://www.youtube.com/watch?v=ruz-vK8IesE">Узнайте о различиях между SQL и NoSQL в этом коротком видео на YouTube.</a></p>
+            <p><a style="color:rgb(0, 98, 255)" target="_blank" href="https://www.youtube.com/watch?v=ruz-vK8IesE">Узнайте о различиях между SQL и NoSQL в этом коротком видео на YouTube.</a></p>
 
         
             <h2> 4. <strong> Создайте портфолио: Разработайте свой первый проект</strong></h2>
@@ -168,7 +140,7 @@
             </form>
 
         </div>
-       
+
         <div class="one">
             <h3>CONTACT</h3>
             <p> SDU,Kaskelen </p>
@@ -181,6 +153,5 @@
             </div>
             </div>
         </footer>
-
 </body>
 </html>
