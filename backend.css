@@ -1,7 +1,11 @@
 @media screen and (max-width: 414px){
-   
     .text-box h1{
         font-size: 30px;
+    }
+    #fourimage{
+        width: 800px;
+        height: 550px;
+        margin-left: 100px;
     }
     .navlinks ul li
     {
@@ -68,12 +72,15 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.row p{
+    font-size: 20px;
+}
 nav, a{
     color: white;
     text-decoration: none;
     list-style: none;
 }
-
 nav {
     margin: 0px;
     height: 50px;
@@ -93,7 +100,6 @@ nav,ul{
     margin: 0px;
     align-items: center;
 }
-
 nav,li{
 
     display: flex;
@@ -345,4 +351,7 @@ form button{
 }
 .mainDes h1{
     letter-spacing: 1px;
+}
+.photo{
+    margin-left: 80px;
 }
