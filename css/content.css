@@ -1,0 +1,154 @@
+.content-intro {
+    width: 100%;
+    padding: 20px 25px;
+    position: relative;
+    min-height: 275px;
+    --tw-bg-opacity: 1;
+    background-color: rgb(0 0 0/1);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+}
+
+.banner-img {
+    position: absolute;
+    z-index: 1;
+    left: -70px;
+    bottom: -40px;
+}
+
+.banner-img2 {
+    position: absolute;
+    right: -120px;
+    bottom: -60px;
+}
+
+.content__container {
+    max-width: 652px;
+    margin: 0 auto;
+}
+
+.title-content:first-child {
+    margin-top: 20px;
+}
+
+.title-content {
+    margin-top: 0;
+    font-weight: 700;
+    color: #231f20;
+    letter-spacing: normal;
+    margin-bottom: 16px;
+    font-size: 1.2rem;
+    line-height: normal;
+}
+
+.content {
+    position: relative;
+}
+
+.content .p {
+    opacity: 0.8;
+    margin-top: 0;
+    word-wrap: break-word;
+    margin-bottom: 25px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #231f20;
+    letter-spacing: .2px;
+}
+
+.roadmap-img {
+    width: 100%;
+}
+
+
+.content-info__wrapper {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.info-p {
+    width: 90%;
+    opacity: 0.8;
+    margin-top: 0;
+    word-wrap: break-word;
+    margin-bottom: 25px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #231f20;
+    letter-spacing: .2px;
+}
+
+.info-img img {
+    width: 30%;
+}
+
+.some-change img {
+    border-radius: 12px;
+    /* margin: 20px; */
+    margin-top: 20px;
+    margin-bottom: 50px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+
+.content-info_navigation {
+    margin-top: 24px;
+    margin-bottom: 35px;
+    padding: 24px;
+    border-radius: 3px;
+    background: rgb(243 244 246);
+    position: relative;
+}
+
+.content-info_navigation .ol {
+    padding-top: 0.75rem;
+    padding-left: 1.25rem;
+}
+
+.arrow {
+    position: absolute;
+    top: 24px;
+    cursor: pointer;
+    right: 20px;
+    font-size: 30px;
+    color: #7784ED;
+}
+
+
+@media(max-width: 991px) {
+    .banner-img2 {
+        bottom: -25px;
+    }
+}
+
+@media(max-width: 767px) {
+    .banner-img2 {
+        right: -10px;
+    }
+
+
+    .content__container {
+        max-width: 375px;
+    }
+
+    .content p {
+        font-size: 13px !important;
+    }
+}
+
+@media(max-width: 479px) {
+    .banner-img {
+        top: -35px;
+        left: -80px;
+    }
+
+    .banner-img2 {
+        z-index: -1;
+    }
+}

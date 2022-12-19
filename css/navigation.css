@@ -1,0 +1,24 @@
+.content__navigation {
+    position: fixed;
+    width: 163px;
+
+}
+
+.head_navi {
+    color: rgb(17, 24, 39);
+}
+
+.ol .link {
+    font-size: .9rem;
+    font-weight: 400;
+    line-height: normal;
+    word-break: break-word;
+    color: rgb(17, 24, 39);
+    text-decoration: none;
+}
+
+@media(max-width: 1765px) {
+    .content__navigation {
+        display: none;
+    }
+}

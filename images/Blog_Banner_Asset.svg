@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="171px" height="154px" viewBox="0 0 171 154" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 3</title>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="164.664695%" id="linearGradient-1">
+            <stop stop-color="#8E87E3" offset="0%"></stop>
+            <stop stop-color="#554FC2" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="13.1805099%" y1="-24.3616908%" x2="95.7392133%" y2="136.461742%" id="linearGradient-2">
+            <stop stop-color="#FF702A" offset="0%"></stop>
+            <stop stop-color="#C507C9" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="164.664695%" id="linearGradient-3">
+            <stop stop-color="#8E87E3" offset="0%"></stop>
+            <stop stop-color="#554FC2" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="18.7161651%" y1="-24.3616908%" x2="88.8625153%" y2="136.461742%" id="linearGradient-4">
+            <stop stop-color="#FF702A" offset="0%"></stop>
+            <stop stop-color="#C507C9" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="164.664695%" id="linearGradient-5">
+            <stop stop-color="#8E87E3" offset="0%"></stop>
+            <stop stop-color="#554FC2" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="01_Blog_Details" transform="translate(-1009.000000, -221.000000)">
+            <g id="Group-3" transform="translate(0.000000, 80.000000)">
+                <g transform="translate(1094.500000, 218.000000) scale(-1, 1) translate(-1094.500000, -218.000000) translate(1009.000000, 141.000000)" id="Group-2">
+                    <ellipse id="Oval" fill="url(#linearGradient-1)" cx="97.6094421" cy="70.1566849" rx="8.80686695" ry="8.81578723"></ellipse>
+                    <ellipse id="Oval-Copy-4" stroke="#FFFFFF" stroke-width="0.725306605" cx="79.9957082" cy="34.8935359" rx="15.0493639" ry="15.0649744"></ellipse>
+                    <ellipse id="Oval-Copy-5" fill="url(#linearGradient-2)" cx="13.2103004" cy="42.2400253" rx="13.2103004" ry="13.2236809"></ellipse>
+                    <polyline id="Path-20" fill="url(#linearGradient-3)" points="45.181063 154 41.430665 122.401643 133.307134 117.790021 127.76317 154"></polyline>
+                    <polygon id="Path-21" fill="#948DF0" points="52.213355 126.035987 52.213355 113.899043 120.4635 113.899043 120.4635 135.89501"></polygon>
+                    <line x1="103.871834" y1="113.899043" x2="127.005992" y2="29.240719" id="Path-22" stroke="#979797" stroke-width="0.725306605"></line>
+                    <polygon id="Path-23" fill="url(#linearGradient-4)" points="111.792805 23.9867907 143.810613 34.7704376 137.303529 0"></polygon>
+                    <line x1="66.8884472" y1="113.899043" x2="46.7865186" y2="25.6699233" id="Path-24" stroke="#FFFFFF" stroke-width="0.725306605" stroke-linecap="round" stroke-linejoin="round"></line>
+                    <polygon id="Rectangle" fill="url(#linearGradient-5)" transform="translate(44.401288, 19.098584) rotate(-11.000000) translate(-44.401288, -19.098584) " points="34.4950765 9.18306818 54.3112579 9.17930888 54.3074986 29.0140994 34.4913172 29.0178587"></polygon>
+                    <line x1="23.692488" y1="50.3211636" x2="56.8374829" y2="71.569881" id="Path-25" stroke="#FFFFFF" stroke-width="0.725306605" stroke-linecap="round" stroke-linejoin="round"></line>
+                    <line x1="79.9957082" y1="50.3211636" x2="82.548167" y2="113.899043" id="Path-26" stroke="#FFFFFF" stroke-width="0.725306605" stroke-linecap="round" stroke-linejoin="round"></line>
+                    <line x1="103.871834" y1="113.899043" x2="127.005992" y2="29.0163444" id="Path-27" stroke="#FFFFFF" stroke-width="0.725306605" stroke-linecap="round" stroke-linejoin="round"></line>
+                    <line x1="109.050667" y1="96.1489571" x2="155.264572" y2="71.569881" id="Path-28" stroke="#FFFFFF" stroke-width="0.725306605" stroke-linecap="round" stroke-linejoin="round"></line>
+                    <ellipse id="Oval" stroke="#FFFFFF" stroke-width="0.725306605" cx="162.193133" cy="67.2180891" rx="8.44421365" ry="8.45313393"></ellipse>
+                    <line x1="109.779677" y1="91.9206319" x2="100.443469" y2="78.9724721" id="Path-29" stroke="#FFFFFF" stroke-width="0.725306605" stroke-linecap="round" stroke-linejoin="round"></line>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

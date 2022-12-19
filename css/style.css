@@ -1,0 +1,110 @@
+@import "./intro.css";
+@import "./content.css";
+@import "./navigation.css";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav, a{
+    color: white;
+    text-decoration: none;
+    list-style: none;
+}
+nav {
+    margin: 0px;
+    height: 50px;
+    padding: 0px;
+    font-size: 15px;
+    margin-top: -10px;
+    margin-left: 0;
+    width: 100%;
+    overflow: hidden;
+    background-color: black;
+    top: 0px;
+    position: fixed;
+    z-index: 10;
+}
+nav .temp1{
+    display: flex;
+    margin: 0px;
+    align-items: center;
+}
+nav .temp2{
+
+    display: flex;
+    gap: 5vw;
+    justify-content:space-around;
+}
+
+body {
+    font-family: Open Sans, sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0;
+    overflow-x: hidden;
+
+}
+.footer{
+    margin-top: 150px;
+    width: 100%;
+    padding: 100px 15%;
+    background:black;
+    color:#efefef;
+    display: flex;
+    justify-content: space-between;
+    position:relative;
+}
+.footer div{
+    text-align: center;
+}
+.footer h3{
+    font-weight: 300;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+.one a{
+    display: block;
+    text-decoration: none;
+    color:#efefef;
+    margin-bottom: 10px;
+} 
+form input{
+    width: 40vw;
+    height: 45px;
+    border-radius:5px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    outline: none;
+    border:none;
+}
+form button{
+    background: transparent;
+    border:2px solid white;
+    color:white;
+    border-radius:15px;
+    padding: 10px 30px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.icons i{
+    display: block;
+    margin-top: 20px;
+    font-size: 30px;
+    cursor: pointer;
+    max-width: 100px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+@media(max-width: 991px) {
+    .container {
+        max-width: 500px;
+    }
+}
